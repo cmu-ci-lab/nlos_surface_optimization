@@ -1,0 +1,4 @@
+rm *.so
+CFLAGS="-I/home/chiayint/research/cgal/include -std=c++11 -fdiagnostics-color=always" \
+LDFLAGS="-lglfw -lboost_system" \
+python setup.py build_ext -i

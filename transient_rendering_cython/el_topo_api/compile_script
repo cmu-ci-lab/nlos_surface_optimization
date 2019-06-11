@@ -1,0 +1,4 @@
+rm *.so
+CFLAGS="-I/home/chiayint/research/eltopo/eltopo3d -I/home/chiayint/research/eltopo/common -I/home/chiayint/research/eltopo/common/newsparse -I/home/chiayint/research/eltopo/common/sparse -I/home/chiayint/research/eltopo/common/meshes -I/home/chiayint/research/eltopo/common/tunicate  -std=c++11 -fdiagnostics-color=always" \
+LDFLAGS="-llapack -lblas" \
+python setup.py build_ext -i

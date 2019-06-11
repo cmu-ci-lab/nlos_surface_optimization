@@ -1,0 +1,3 @@
+#scp -r chiayint@emperor.andrew.cmu.edu:research/nlos_inverse_rendering/transient_rendering_python/optimization/setup.mat setup.mat
+scp -r chiayint@emperor.andrew.cmu.edu:research/nlos_inverse_rendering/transient_rendering_python/optimization/result/info.mat result/info.mat
+
