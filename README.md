@@ -4,8 +4,6 @@ Chia-Yin Tsai, Aswin C. Sankaranarayanan, Ioannis Gkioulekas, "Beyond Volumetric
 
 It contains an implementation of the reconstruction pipeline described in the paper.
 
-You can run this renderer on AWS using the pre-configured AMI with ID ami-28308957 (N. Virginia US EAST). This AMI is compatible with [CfnCluster](https://cfncluster.readthedocs.io/en/latest/) for easy distributed rendering.
-
 # Project page:
 http://imaging.cs.cmu.edu/nlos_surf_opt/
 
@@ -13,7 +11,7 @@ http://imaging.cs.cmu.edu/nlos_surf_opt/
 
 You can run this code on AWS using the following pre-configured AMI:
 
-AMI ID: ami-09cbf551790c03cb2, 
-AWS Region: US-East (Ohio)
+- AMI ID: ami-09cbf551790c03cb2
+- AWS Region: US-East (Ohio)
 
 This AMI is compatible with [CfnCluster](https://cfncluster.readthedocs.io/en/latest/) for easy distribution.
